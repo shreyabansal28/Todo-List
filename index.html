@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="jpg" href="logo.jpg">
+    <title>To-do List</title>
+</head>
+<body>
+      
+    <header class="navbar">
+        <nav >
+            <h1>Todo List</h1>
+        </nav>
+    </header>
+
+    <section>
+        <div class="part1">
+            <form class="myform">
+                <label for="title" class="textmain">Title:</label><br><br>
+                <input type="text" id="title" name="title"  style="height: 30px; "><br><br><br>
+                <label for="dis" class="textmain">Description:</label><br><br>
+                <input type="text" id="dis" name="dis"  style="height: 100px; " ><br><br><br>
+                <input type="button" value="Submit" id="mybutton" onclick="myfun()">    
+                 <input type="button" value="Delete" id="delall" onclick="delallit()">
+
+            </form>
+        </div>
+    </section>
+    <br><br>
+    <hr style="border-top: 3px dashed #bbb">
+    
+    <section>
+        <div class="part2">
+            <h1>My List</h1>
+        </div>
+            <br><br><br>
+            <div class="part3">
+        <table id="mytable">
+        </table>
+    </div>
+    </section>
+    <br><br>
+    <footer class="footer">
+        Made with love Shreya Bansal
+    </footer>
+<script src="work.js"></script> 
+</body>
+</html>
